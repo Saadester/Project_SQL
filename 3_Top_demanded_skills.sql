@@ -1,5 +1,4 @@
 Select 
-
 skills,
 COUNT(skills_job_dim.job_id) AS Demand_count
 
@@ -13,4 +12,4 @@ Group BY
 skills
 ORDER BY
 Demand_count DESC
-LIMIT 5;
+LIMIT 10;
