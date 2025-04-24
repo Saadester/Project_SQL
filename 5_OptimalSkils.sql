@@ -31,4 +31,4 @@ INNER JOIN Top_paying_skills ON Demand_Skills.skill_id = Top_paying_skills.skill
 WHERE Demand_count > 10 AND Demand_count < 100
 ORDER BY
 AVG_Salary DESC
-LIMIT 25;
+LIMIT 15;
